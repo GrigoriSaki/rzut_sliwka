@@ -34,5 +34,24 @@
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCu6jo0Dag8GPAxP95LPr3ZDgUIsk-Jbw8",
+    authDomain: "plumproject-7fd0e.firebaseapp.com",
+    projectId: "plumproject-7fd0e",
+    storageBucket: "plumproject-7fd0e.firebasestorage.app",
+    messagingSenderId: "253037158851",
+    appId: "1:253037158851:web:59a8fbeb679e5ac55e9d76"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
