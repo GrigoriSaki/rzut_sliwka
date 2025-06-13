@@ -4,6 +4,7 @@ import 'dart:math';
 
 import 'package:rzut_sliwka/components/switch_button.dart';
 
+// ignore: must_be_immutable
 class AnimationContainer extends StatefulWidget {
   AnimationContainer({
     super.key,

@@ -35,13 +35,6 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void _onThrowPressed() {
-    setState(() {
-      _shouldThrow = true;
-      print("----Rzucono-----");
-    });
-  }
-
   void _onAnimationCompleted() {
     setState(() {
       _shouldThrow = false;
@@ -66,6 +59,7 @@ class _HomePageState extends State<HomePage> {
         shadowColor: Colors.black,
       ),
       body: Container(
+        height: MediaQuery.of(context).size.height,
         color: const Color.fromARGB(255, 152, 50, 19),
         child: Padding(
           padding: const EdgeInsets.all(12.0),
